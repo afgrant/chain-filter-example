@@ -24,6 +24,8 @@ repositories {
 	mavenCentral()
 }
 
+ext['spring-integration.version'] = '4.3.7.RELEASE'
+
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-integration')
 	compile('org.springframework.integration:spring-integration-file')
